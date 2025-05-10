@@ -1,5 +1,5 @@
+"use client"
 import React, { useState, useEffect, useRef } from 'react';
-
 const EnhancedFireworksConfession = () => {
   const [phase, setPhase] = useState(0);
   const canvasRef = useRef<HTMLCanvasElement>(null);
